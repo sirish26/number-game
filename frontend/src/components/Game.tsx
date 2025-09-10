@@ -34,7 +34,7 @@ export default function Game() {
 
   const chooseNumber = (num: number) => {
     socket.emit("chooseNumber", num);
-    setStatus(`You chose ${num}. Waiting for opponent...`);
+    setStatus(`You chose ${num}. Waiting for opponent just chill while another player joins..`);
   };
 
   return (
